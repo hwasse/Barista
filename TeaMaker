@@ -1,13 +1,13 @@
 public class TeaMaker {
 
     
-    private Storage teaBag;
+    private TeaStock teaBag;
     private boolean withSugar;
     private String topping;
     private static int amountOfDrinks; 
     
-    public TeaMaker(String teaType, boolean withSugar, String topping){
-        this.teaType = teaType;
+    public TeaMaker(String teaBag, boolean withSugar, String topping){
+        this.teaBag = teaBag;
         this.withSugar = withSugar;
         this.topping = topping;
         amountOfDrinks = 0;
