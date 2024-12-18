@@ -1,9 +1,9 @@
 public class TeaMaker {
 
-    private String teaType; // change to object variable
+    
+    private Storage teaBag;
     private boolean withSugar;
     private String topping;
-    private Storage teaBag;
     private static int amountOfDrinks; 
     
     public TeaMaker(String teaType, boolean withSugar, String topping){
