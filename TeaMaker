@@ -1,0 +1,15 @@
+public class TeaMaker {
+
+    private String teaType // change to object variable
+    private boolean withSugar;
+    private String topping;
+    private Storage 
+    private static int amountOfDrinks; 
+    
+    public TeaMaker(String teaType, boolean withSugar, String topping){
+        this.teaType = teaType;
+        this.withSugar = withSugar;
+        this.topping = topping;
+        amountOfDrinks = 0;
+    }
+}
