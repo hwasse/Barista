@@ -15,6 +15,10 @@ public TeaStock(String teaName, int amountOfTea, int sugar) {
       sugarStock = 20;
 }
 
+public String getName(){
+    return teaName;
+}
+
 public int getTeaStock(){
   return amountOfTea;
 }
