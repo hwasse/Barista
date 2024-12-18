@@ -1,0 +1,18 @@
+public class TeaStock {
+
+    private String teaName;
+    private int amountOfTea;
+    private int sugarStock;
+  public TeaStock(String teaName, int amountOfTea, boolean enoughSugar) {
+      this.teaName = teaName;
+      this.amountOfTea = amountOfTea;
+      sugarStock = 20;
+}
+
+public int getTeaStock(){
+  return amountOfTea;
+}
+
+public int getSugarStuck(){
+  return sugarStock;
+}
