@@ -6,8 +6,8 @@ public class TeaMaker {
     private String topping;
     private static int amountOfDrinks; 
     
-    public TeaMaker(String teaBag, boolean withSugar, String topping){
-        this.teaBag = teaBag;
+    public TeaMaker(TeaSTock teaBag, boolean withSugar, String topping){
+        teaBag = new TeaStock(teaBag. , teaBag.
         this.withSugar = withSugar;
         this.topping = topping;
         amountOfDrinks = 0;
