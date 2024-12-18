@@ -6,7 +6,7 @@ public class TeaMaker {
     private String topping;
     private static int amountOfDrinks; 
     
-    public TeaMaker(TeaSTock teaBag, boolean withSugar, String topping){
+    public TeaMaker(TeaStock teaBag, boolean withSugar, String topping){
         teaBag = new TeaStock(teaBag.getName(), teaBag.getTeaStock(), getSugarStock());
         this.withSugar = withSugar;
         this.topping = topping;
