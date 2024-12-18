@@ -27,3 +27,5 @@ public String sugarAvailable(){
     if (sugarStock <= 0){
         return System.out.println("Sorry! We're out of sugar!");
     }
+}
+}
