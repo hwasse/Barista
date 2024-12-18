@@ -12,7 +12,7 @@ public TeaStock(String teaName, int amountOfTea){
 public TeaStock(String teaName, int amountOfTea, int sugar) {
       this.teaName = teaName;
       this.amountOfTea = amountOfTea;
-      if (sugarStock = 20;)
+      sugarStock = 20;
 }
 
 public int getTeaStock(){
@@ -24,4 +24,6 @@ public int getSugarStock(){
 }
 
 public String sugarAvailable(){
-    if (
+    if (sugarStock <= 0){
+        return System.out.println("Sorry! We're out of sugar!");
+    }
